@@ -16,7 +16,7 @@ if db.is_connected():
 
 @app.route("/")
 def home():
-    return "Flask is working!"
+    return "Flask is working properly buddy!"
 
 @app.route("/register", methods=["GET", "POST"])
 def register():
